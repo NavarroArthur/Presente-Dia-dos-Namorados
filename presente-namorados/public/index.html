@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pra você 💜</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Slideshow fundo -->
+  <div class="bg-slideshow" id="bg-slideshow" aria-hidden="true"></div>
+  <div class="bg-overlay" aria-hidden="true"></div>
+
+  <!-- Corações flutuando -->
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main id="app">
+    <!-- Tela inicial -->
+    <section class="card screen" id="screen-start">
+      <div class="heart-icon">💜</div>
+      <h1 class="title" id="titulo"></h1>
+      <p class="subtitle" id="subtitulo"></p>
+      <button class="btn" id="btn-start"></button>
+    </section>
+
+    <!-- Tela pergunta -->
+    <section class="card screen hidden" id="screen-question">
+      <div class="progress"><div class="progress-bar" id="progress-bar"></div></div>
+      <p class="step" id="step"></p>
+      <h2 class="question" id="question"></h2>
+      <div class="options" id="options"></div>
+    </section>
+
+    <!-- Tela resposta + carrossel -->
+    <section class="card screen hidden" id="screen-reveal">
+      <div class="carousel" id="carousel">
+        <div class="carousel-track" id="carousel-track"></div>
+        <button class="carousel-btn prev" id="carousel-prev" aria-label="Anterior">‹</button>
+        <button class="carousel-btn next" id="carousel-next" aria-label="Próxima">›</button>
+        <div class="carousel-dots" id="carousel-dots"></div>
+      </div>
+      <p class="caption" id="caption"></p>
+      <p class="answer" id="answer"></p>
+      <button class="btn" id="btn-next">Próxima 💜</button>
+    </section>
+
+    <!-- Tela final -->
+    <section class="card screen hidden" id="screen-final">
+      <div class="heart-icon big">💜</div>
+      <h1 class="title" id="final-titulo"></h1>
+      <p class="final-msg" id="final-msg"></p>
+      <p class="signature" id="final-sig"></p>
+      <div class="gallery" id="gallery"></div>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Fechar">×</button>
+    <button class="lightbox-btn prev" id="lightbox-prev" aria-label="Anterior">‹</button>
+    <button class="lightbox-btn next" id="lightbox-next" aria-label="Próxima">›</button>
+    <img class="lightbox-img" id="lightbox-img" alt="" />
+    <div class="lightbox-counter" id="lightbox-counter"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

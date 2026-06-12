@@ -1,0 +1,87 @@
+{
+  "titulo": "Pra você, meu amor 💜",
+  "subtitulo": "Um presentinho de Dia dos Namorados",
+  "botaoInicio": "Começar",
+  "perguntas": [
+    {
+      "pergunta": "Qual Foi nosso primeiro beijo?",
+      "opcoes": ["No bar", "Na Praia", "No Shopping", "Em casa"],
+      "resposta": "Foi em casa.",
+      "legenda": "Nosso comecinho 💜",
+      "fotos": [
+        "photos/20260207_151256.jpg",
+        "photos/IMG_20241215_192950.jpg",
+        "photos/IMG_20250129_120137.jpg"
+      ]
+    },
+    {
+      "pergunta": "Qual foi a primeira viagem que fizemos?",
+      "opcoes": ["Buzios", "Cabo Frio", "Cachoeiras de Macacu", "Saquarema"],
+      "resposta": "Foi pra Cachoeiras de macacu",
+      "legenda": "Nossa primeira viagem ✈️",
+      "fotos": [
+        "photos/20260321_111155.jpg",
+        "photos/20260321_212842.jpg",
+        "photos/20260322_114422.jpg"
+      ]
+    },
+    {
+      "pergunta": "Qual é o meu apelido favorito que você me dá?",
+      "opcoes": ["Linda", "Amor", "Meu Bem", "Dengo"],
+      "resposta": "É Meu bem",
+      "legenda": "Meu Bem 🌸",
+      "fotos": [
+        "photos/IMG_20250129_141404.jpg",
+        "photos/0cfb580c-96ed-482d-9f97-8384819e7d09.jfif",
+        "photos/24265419-8e0c-43fe-8919-4ddf59733217.jfif"
+      ]
+    },
+    {
+      "pergunta": "Qual é a nossa música?",
+      "opcoes": ["Magnolia - Jorge Ben Jor", "Lilás- Djavan", "Folhetim - Gal Costa", "Lembranças- Maneva"],
+      "resposta": "É Lilás - Djavan.",
+      "legenda": "Trilha sonora do nosso amor 🎵",
+      "fotos": [
+        "photos/20260530_222811.jpg",
+        "photos/20260605_224816.jpg",
+        "photos/20260607_143038.jpg"
+      ]
+    },
+    {
+      "pergunta": "Aonde foi o pedido de namoro?",
+      "opcoes": ["Itaipu", "São Francisco", "Itaipuaçu", "Charitas"],
+      "resposta": "Foi em São Francisco.",
+      "legenda": "vendo o por do sol na praia juntos",
+      "fotos": [
+        "photos/2b385e38-74d3-4260-b8bb-225aedbbb258.jfif",
+        "photos/55a96d60-7cf6-4aae-bf18-5838d8166fd5.jfif",
+        "photos/66c5c7cd-55b6-4272-a48f-c6b404ced32f.jfif"
+      ]
+    },
+    {
+      "pergunta": "Qual o nosso lugar favorito juntos?",
+      "opcoes": ["Cama", "Shopping", "Praia", "Casa"],
+      "resposta": "acho que uma cama na praia seria o lugar perfeito kkkkkkk",
+      "legenda": "Te amo meu amor",
+      "fotos": [
+        "photos/c46fa036-4e51-4110-8b16-bf4fcd588ca9.jfif",
+        "photos/cd48ebfa-28da-4d87-b4c4-1fc24202ba44.jfif"
+      ]
+    },
+    {
+      "pergunta": "O que eu mais amo em você?",
+      "opcoes": ["Sorriso", "Carinho", "Compaixao", "Beleza","Cabelo","Olhos","Personalidade","Humor","Cuidado pelos outros","Amor pelo outros"],
+      "resposta": "Tudo acima kkkkkkk",
+      "legenda": "Você é tudo pra mim 💕",
+      "fotos": [
+        "photos/e1bb7f6d-39c1-45c7-8bab-0d50311a6fbb.jfif",
+        "photos/e80fa437-dd4b-4f83-a7ca-0cf47d6b941b.jfif"
+      ]
+    }
+  ],
+  "final": {
+    "titulo": "Eu te amo 💜",
+    "mensagem": "Cada momento ao seu lado é um presente. Obrigado por ser meu lar, meu sorriso, meu pra sempre. Feliz Dia dos Namorados, amor da minha vida.",
+    "assinatura": "— Seu amor"
+  }
+}

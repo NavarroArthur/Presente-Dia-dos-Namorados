@@ -1,0 +1,9 @@
+services:
+  presente:
+    image: nginx:alpine
+    container_name: presente-namorados
+    ports:
+      - "8080:80"
+    volumes:
+      - ./public:/usr/share/nginx/html:ro
+    restart: unless-stopped
